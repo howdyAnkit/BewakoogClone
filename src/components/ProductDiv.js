@@ -18,7 +18,10 @@ function ProductDiv({ product }) {
         </div>
         <div className='d-flex align-items-center product_div__descPriceMain'>
           <p className='product_div__descPrice'>&#8377;{product.price}</p>
-          <p
+          <br />
+          <p className='product_div__descPrice'>&#8377;{product.category}{" "}</p>
+          
+          {/* <p
             style={{
               textDecoration: "line-through",
               fontSize: "0.8rem",
@@ -26,7 +29,7 @@ function ProductDiv({ product }) {
               color: "gray",
             }}>
             {product.og_price}{" "}
-          </p>
+          </p> */}
         </div>
 
       </div>
