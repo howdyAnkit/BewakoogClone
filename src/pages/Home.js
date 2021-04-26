@@ -2,7 +2,7 @@ import React from "react";
 import firstAdData from "../ads";
 import AdCard from "../components/AdCard";
 import CarouselAd from "../components/CarouselAd";
-import { topWear, bottomWear } from "../BrowseWear";
+// import { topWear, bottomWear } from "../BrowseWear";
 
 import "./home.css";
 
@@ -30,7 +30,7 @@ function Home() {
         className='Ad_horizontal AdGif BottomWear mx-auto w-100'
         alt='adv'
       />
-      <div className='home__topWear'>
+      {/* <div className='home__topWear'>
         {topWear.map((item, key) => (
           <img
             className='home__topWearItem'
@@ -40,13 +40,13 @@ function Home() {
             style={{ cursor: "pointer" }}
           />
         ))}
-      </div>
+      </div> */}
       <img
         src='https://images.bewakoof.com/uploads/grid/app/bewakoof-oof-sale-title-bottomwear-1591802750.png'
         className='Ad_horizontal AdGif BottomWear mx-auto w-100'
         alt='adv'
       />
-      <div className='home__topWear'>
+      {/* <div className='home__topWear'>
         {bottomWear.map((item, key) => (
           <img
             className='home__topWearItem'
@@ -56,7 +56,7 @@ function Home() {
             style={{ cursor: "pointer" }}
           />
         ))}
-      </div>
+      </div> */}
 
       <img
         src='https://images.bewakoof.com/uploads/grid/app/branding-section-mobile-1589380737.png'

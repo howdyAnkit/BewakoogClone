@@ -8,7 +8,7 @@ function ProductLister({ products }) {
       <Grid container spacing={1}>
         {products.map((product, key) => {
           return (
-            <Grid item md={4} lg={4} xs={6}>
+            <Grid item md={4} lg={3} xs={6}>
               <ProductDiv product={product} />
             </Grid>
           );

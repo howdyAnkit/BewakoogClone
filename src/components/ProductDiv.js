@@ -10,11 +10,11 @@ function ProductDiv({ product }) {
         onMouseEnter={() => setBackground(product.img2)}
         onMouseLeave={() => setBackground(product.img1)}
         className='product_div__img'>
-        <img src={background} alt={product.name} className='product_img' />
+        <img src={product.image} alt={product.image} className='product_img' />
       </div>
       <div className='product_div__desc'>
         <div>
-          <p className='product_div__descName'>{product.name}</p>
+          <p className='product_div__descName'>{product.title}</p>
         </div>
         <div className='d-flex align-items-center product_div__descPriceMain'>
           <p className='product_div__descPrice'>&#8377;{product.price}</p>
@@ -28,11 +28,7 @@ function ProductDiv({ product }) {
             {product.og_price}{" "}
           </p>
         </div>
-        <div className='product_div__descTribe'>
-          <p>
-            <span>&#8377;{product.tribe_price}</span> For TriBe Members
-          </p>
-        </div>
+
       </div>
     </div>
   );

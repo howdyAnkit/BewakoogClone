@@ -7,27 +7,13 @@ import PhoneAndroidOutlinedIcon from "@material-ui/icons/PhoneAndroidOutlined";
 function Header() {
   return (
     <div className='header'>
-      <div className='header__small'>
-        <div className='header__small1'>
-          <p>Offers</p>
-          <p>Fanbook</p>
-          <p>
-            <PhoneAndroidOutlinedIcon />
-            Download App
-          </p>
-          <p>TriBe Membership</p>
-        </div>
-        <div className='header__small2'>
-          <p>Contact Us</p>
-          <p>Track Order</p>
-        </div>
-      </div>
+
       <div className='header__navbar '>
         <nav className='navbar navbar-expand-lg navbar-light bg-white '>
           <a className='navbar-brand' href='/'>
             <img
               className='navbar-logo'
-              src='https://images.bewakoof.com/logos/bewakoof-logo-og.png'
+              src='https://img.icons8.com/nolan/64/fast-cart.png'
               alt='bewakoof'
             />
           </a>

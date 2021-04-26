@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Bottomwear from "./pages/Bottomwear";
 import Home from "./pages/Home";
@@ -16,27 +16,27 @@ function App() {
       <Header />
       <Router>
         <Switch>
-          <Route path='/top-wear'>
+          {/* <Route path='/top-wear'>
             <Topwear />
           </Route>
           <Route path='/bottom-wear'>
             <Bottomwear />
-          </Route>
-          <Route path='/men-clothing'>
+          </Route> */}
+          <Route path='/'>
             <Men_clothing />
           </Route>
-          <Route path='/women-clothing'>
+          {/* <Route path='/women-clothing'>
             <Women_clothing />
-          </Route>
-          <Route path='/' exact>
+          </Route> */}
+          {/* <Route path='/' exact>
             <Home />
-          </Route>
-          <Route path='/'>
+          </Route> */}
+          {/* <Route path='/'>
             <PageNotFound />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
       {/* -- mini header */}
       {/* -- Navbar */}
       {/* Page */}
